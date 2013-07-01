@@ -1,5 +1,8 @@
 class HolaMundo
-  def self.hi
-    puts "Hola mundo!"
+  def self.hi(language = :spanish)
+    translator = Translator.new(language)
+    translator.hi
   end
 end
+
+require 'hola_mundo/translator'

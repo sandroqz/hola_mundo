@@ -6,6 +6,6 @@ Gem::Specification.new do |s|
   s.description = "A simple hello world gem"
   s.authors     = ["Sandro Queiroz Jr."]
   s.email       = 'sandroqz@gmail.com'
-  s.files       = ["lib/hola_mundo.rb"]
+  s.files       = Dir["{lib}/**/*.rb"]
   s.homepage    = 'https://github.com/sandroqz/hola_mundo'
 end
