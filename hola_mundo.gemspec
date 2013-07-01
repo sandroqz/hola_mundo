@@ -9,4 +9,6 @@ Gem::Specification.new do |s|
   s.email       = 'sandroqz@gmail.com'
   s.files       = Dir["{lib}/**/*.rb"]
   s.homepage    = 'https://github.com/sandroqz/hola_mundo'
+
+  s.add_development_dependency 'test-unit', '~> 2.5.5'
 end
