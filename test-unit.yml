@@ -1,0 +1,23 @@
+runner: console
+console_options:
+  color_scheme: my_color_scheme
+color_schemes:
+  my_color_scheme:
+    success:
+      name: green
+      bold: false
+    error:
+      name: magenta
+      bold: false
+    failure:
+      name: red
+      bold: true
+    notification:
+      name: cyan
+      bold: false
+    pending:
+      name: yellow
+      bold: false
+    omission:
+      name: white
+      bold: true
