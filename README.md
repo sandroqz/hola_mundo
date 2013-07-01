@@ -1,4 +1,4 @@
-## Instalation
+## Installation
 
 Installing with RubyGems:
 
